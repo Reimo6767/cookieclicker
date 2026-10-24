@@ -88,6 +88,28 @@ Feel free to alter this code to your liking, but please do not re-host it, do no
 
 <!--[if lt IE9]><script src="excanvas.compiled.js"></script><![endif]-->
 </head>
+<script type="text/javascript">
+/* Frozen Cookies Program Body */
+(function() {
+    // クッキークリッカー本体が読み込まれるのを待ってから実行する安全装置
+    var checkReady = setInterval(function() {
+        if (typeof Game !== 'undefined' && Game.ready) {
+            clearInterval(checkReady);
+            loadFrozenCookies();
+        }
+    }, 1000);
+
+    function loadFrozenCookies() {
+        // 今のクッキークリッカーでも動く最新の自動化・計算システム
+        if (typeof FrozenCookies !== 'undefined') return;
+        
+        // ここにFrozen Cookiesのメイン処理を注入
+        eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('e 1a(){7(!(1a.22||(16 1b===\'1c\'&&1b.1d))){1a.22=15;4 1e=18.1f(\'1g\');1e.1h=\'1i/1j\';1e.1k=\'1l://1m78.1n.1o/1p/1q.1r\';18.1s.1t(1e)}}1a();',41,59,'||||var|||if|||||||function||||document|createElement|script|type|text|javascript|src|https|icehawk|github|io|FrozenCookies|frozen_cookies|js|body|appendChild|||||||||||||||||||||||'.split('|'),0,{}));
+        
+        console.log("Frozen Cookies が正常に読み込まれました！");
+    }
+})();
+</script>
 
 <body>
 
