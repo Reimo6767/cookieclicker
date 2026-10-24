@@ -88,7 +88,14 @@ Feel free to alter this code to your liking, but please do not re-host it, do no
 
 <!--[if lt IE9]><script src="excanvas.compiled.js"></script><![endif]-->
 </head>
-<script type="text/javascript" src="https://github.io"></script>
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+        var js = document.createElement('script');
+        js.setAttribute('type', 'text/javascript');
+        js.setAttribute('src', 'https://github.io');
+        document.body.appendChild(js);
+    });
+</script>
 <body>
 
 <div id="wrapper">
